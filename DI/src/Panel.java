@@ -1,42 +1,52 @@
 
 import java.awt.Color;
+import java.awt.Dimension;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 /**
- * 
+ *
  * @author sepla
  */
-
 class framePanel extends JFrame {
-    
+
     public framePanel() {
-        
+
         setTitle("Título Ventana");
-        setSize(300,200);
-        
+        setSize(300, 200);
+
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        
-        JPanel panel= new JPanel();
-        
+
+        JPanel panel = new JPanel();
+
         add(panel);
-        
+
         panel.setBackground(Color.red);
-        
-        
-        
+
+        //Añadir botón
+        JButton boton = new JButton("Boton");
+
+        //dimensiones del botón
+        Dimension d = new Dimension();
+
+        d.height = 40;
+        d.width = 100;
+
+        boton.setPreferredSize(d);
+
+        panel.add(boton);
+
     }
-    
+
 }
 
-
 public class Panel {
-    
+
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
-        
-        framePanel fp= new framePanel();
-        
+
+        framePanel fp = new framePanel();
+
         fp.setVisible(true);
     }
 
