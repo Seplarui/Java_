@@ -1,6 +1,8 @@
 
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -32,10 +34,20 @@ class framePanel extends JFrame {
 
         d.height = 40;
         d.width = 100;
-
+        
+            class escuchador_boton implements ActionListener {
+                
+                public void actionPerformed(ActionEvent e) {
+                    panel.setBackground(Color.blue);
+                }
+   
+    
+}
         boton.setPreferredSize(d);
-
+        boton.addActionListener(new escuchador_boton());
         panel.add(boton);
+        
+
 
     }
 
