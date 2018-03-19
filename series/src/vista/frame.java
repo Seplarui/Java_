@@ -1,0 +1,38 @@
+package vista;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import modelo.show;
+
+/**
+ * 
+ * @author sepla
+ */
+public class frame  extends JFrame{
+    
+    private JPanel panel1=new JPanel();
+    private JPanel panel2= new JPanel();
+    private JPanel panel3= new JPanel();
+    private JButton b1,b2,b3,b4,b5,b6,b7;
+    private JLabel e1,e2,e3,e4,e5;
+    private JTextField t1,t2,t3,t4,t5;
+    
+    public frame() {
+        setSize(500,200);
+        setTitle("Mis Series");
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        panel1.setLayout(new BorderLayout());
+        panel2.setLayout(new GridLayout(5,2,10,10));
+        panel3.setLayout(new FlowLayout());
+        add(panel1);
+        panel1.add(panel3,BorderLayout.NORTH);
+        panel1.add(panel2,BorderLayout.CENTER);
+        
+    }
+    
+    
+    
+    
+
+}
