@@ -5,9 +5,11 @@
  */
 package series;
 
+import controlador.controlador;
 import modelo.acceso;
 import modelo.listShow;
 import modelo.show;
+import vista.frame;
 
 /**
  *
@@ -35,23 +37,28 @@ public class Series {
 //        //mensaje para saber que ha acabado:
 //        System.out.println("Serie guardada con éxito");
 
-        //Prueba a leer un fichero
-        //instanciamos una lista de series
-        listShow ls= new listShow();
-        //leemos el fichero
-        ls=acceso.cargarLS();
-        //instanciamos el objeto de tipo serie:
-        show sh= new show();
-        //obtenemos el primer elemento del arrayList:
-        sh=ls.getShow(0);
-        //mostramos el título
-        System.out.println("Título: ");
-        System.out.println(sh.getTitle());
-        //Obtenemos y mostramos el segundo elemento:
-        sh=ls.getShow(1);
-        System.out.println("Título: ");
-        System.out.println(sh.getTitle());
-        
+//        //Prueba a leer un fichero
+//        //instanciamos una lista de series
+//        listShow ls= new listShow();
+//        //leemos el fichero
+//        ls=acceso.cargarLS();
+//        //instanciamos el objeto de tipo serie:
+//        show sh= new show();
+//        //obtenemos el primer elemento del arrayList:
+//        sh=ls.getShow(0);
+//        //mostramos el título
+//        System.out.println("Título: ");
+//        System.out.println(sh.getTitle());
+//        //Obtenemos y mostramos el segundo elemento:
+//        sh=ls.getShow(1);
+//        System.out.println("Título: ");
+//        System.out.println(sh.getTitle());
+//instancio un controlador para pasárselo a la vista
+        controlador control = new controlador();
+        //instancio una ventana pasándole un controlador
+        frame f = new frame(control);
+        f.setVisible(true);
+
     }
 
 }
