@@ -22,8 +22,12 @@ public class controlador {
     public show primero() {
         posicion=0;
         return ls.getShow(posicion);
-        
     }
+      public show ultimo() {
+        //posicion=ls.longitud();
+        posicion=ls.longitud()-1;
+        return ls.getShow(posicion);
+    } 
     
     public show anterior() {
         if(posicion>0) {
@@ -46,5 +50,6 @@ public class controlador {
         acceso.guardarLS(ls);
                 
     }
+  
 
 }

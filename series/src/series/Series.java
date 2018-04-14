@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package series;
 
 import controlador.controlador;
@@ -55,7 +51,6 @@ public class Series {
 //        System.out.println(sh.getTitle());
 //instancio un controlador para pasárselo a la vista
         controlador control = new controlador();
-        //instancio una ventana pasándole un controlador
         frame f = new frame(control);
         f.setVisible(true);
 

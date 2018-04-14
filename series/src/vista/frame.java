@@ -98,6 +98,9 @@ public class frame extends JFrame {
             if (e.getSource() == b3) {
                 s = c.siguiente();
             }
+            if(e.getSource()==b4) {
+                s=c.ultimo();
+            }
 
             if (e.getSource() == b5) {
                 if (b5.getText().equals("+")) {
