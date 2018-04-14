@@ -1,4 +1,6 @@
-package java.util;
+package primitiva.util;
+
+import java.util.Random;
 
 /**
  *
