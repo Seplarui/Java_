@@ -4,6 +4,7 @@ import java.sql.*;
 public class Conexion_DB {
     public Connection AbrirConexion() throws Exception {
         
+//        Class.forName("com.mysql.jdbc.Driver");
         Connection con=null; //instancia una conexión
         
         try{
