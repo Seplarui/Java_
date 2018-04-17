@@ -2,6 +2,7 @@ package ventana;
 
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -15,11 +16,20 @@ public class Panel extends JFrame{
         setSize(300,200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         
+        FlowLayout fl= new FlowLayout(FlowLayout.LEFT,5,10);
+        
         //Creo un objeto tipo JPanel
         
         JPanel jp= new JPanel();
         JButton boton= new JButton("Botón");
         Dimension d= new Dimension();
+        jp.setLayout(fl);
+        
+        for (int i=0; i<4000; i++) {
+            JButton button= new JButton("Boton"+(i+1));
+            button.setPreferredSize(d);
+            jp.add(button);
+        }
         
         d.height=40;
         d.width=200;
