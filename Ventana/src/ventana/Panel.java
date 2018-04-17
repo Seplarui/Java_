@@ -2,6 +2,8 @@ package ventana;
 
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -34,10 +36,16 @@ public class Panel extends JFrame{
         //Añadir botón
         
         jp.add(boton);
-        
+    
+        class escuchador_boton implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+            jp.setBackground(Color.blue);
+        }
     }
+        
+        boton.addActionListener(new escuchador_boton());
     
-    
+    }
     public static void main(String[] args) {
         
         Panel pn= new Panel();
