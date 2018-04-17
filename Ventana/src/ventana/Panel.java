@@ -1,5 +1,6 @@
 package ventana;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -14,28 +15,42 @@ public class Panel extends JFrame{
     
     public Panel() {
         setTitle("Título");
-        setSize(300,200);
+        setSize(500,400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         
         //FlowLayout fl= new FlowLayout(FlowLayout.LEFT,5,10);
         
-        GridLayout grid=new GridLayout(3,2,5,5);
+        //GridLayout grid=new GridLayout(3,2,5,5);
+        
         
         //Creo un objeto tipo JPanel
         
         JPanel jp= new JPanel();
         JButton boton= new JButton("Botón");
         Dimension d= new Dimension();
-        jp.setLayout(grid);
+        jp.setLayout(new BorderLayout());
+        JButton azul = new JButton("Azul");
+        JButton verde= new JButton("Verde");
+        JButton amarillo= new JButton("Amarillo");
+        JButton rosa= new JButton("Rosa");
+        azul.setPreferredSize(d);
+        verde.setPreferredSize(d);
+        amarillo.setPreferredSize(d);
+        rosa.setPreferredSize(d);
         
-        for (int i=0; i<6; i++) {
+        jp.add(azul, BorderLayout.SOUTH);
+        jp.add(amarillo, BorderLayout.NORTH);
+        jp.add(verde, BorderLayout.EAST);
+        jp.add(rosa, BorderLayout.WEST);
+        
+        /*for (int i=0; i<6; i++) {
             JButton button= new JButton("Boton"+(i+1));
             button.setPreferredSize(d);
             jp.add(button);
-        }
+        }*/
         
         d.height=40;
-        d.width=200;
+        d.width=100;
         boton.setPreferredSize(d);
         
         //Añado el panel al frame
@@ -48,7 +63,6 @@ public class Panel extends JFrame{
         
         //Añadir botón
         
-        jp.add(boton);
     
         class escuchador_boton implements ActionListener {
         public void actionPerformed(ActionEvent e) {
