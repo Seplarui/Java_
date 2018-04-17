@@ -1,6 +1,8 @@
 package ventana;
 
 import java.awt.Color;
+import java.awt.Dimension;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -14,6 +16,12 @@ public class Panel extends JFrame{
         //Creo un objeto tipo JPanel
         
         JPanel jp= new JPanel();
+        JButton boton= new JButton("Botón");
+        Dimension d= new Dimension();
+        
+        d.height=40;
+        d.width=200;
+        boton.setPreferredSize(d);
         
         //Añado el panel al frame
         
@@ -22,6 +30,10 @@ public class Panel extends JFrame{
         //Fondo de color rojo
         
         jp.setBackground(Color.red);
+        
+        //Añadir botón
+        
+        jp.add(boton);
         
     }
     
