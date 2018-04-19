@@ -2,24 +2,23 @@ package usandoswing;
 
 import java.awt.Color;
 import javax.swing.*;
-
-public class frame1 extends JFrame {
+/**
+ * 
+ * @author sepla
+ */
+public class frame1  extends JFrame {
     
-    public frame1() 
-    {
-        setTitle("Usando Swing");
+    public frame1 () {
+        setTitle("Hola");
         
         setBounds(0,0,800,600);
         
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         
-        //AÑADIR PANEL
-        
         JPanel panel= new JPanel();
+        
         add(panel);
         panel.setBackground(Color.red);
     }
-    
-    
 
 }
