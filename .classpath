@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="accesoMysql/src"/>
+	<classpathentry kind="src" path="DI/src"/>
+	<classpathentry kind="src" path="Lista1/src"/>
+	<classpathentry kind="src" path="practicaCombo/src"/>
+	<classpathentry kind="src" path="Primitiva/src"/>
+	<classpathentry kind="src" path="pruebaMySQL/src"/>
+	<classpathentry kind="src" path="series/src"/>
+	<classpathentry kind="src" path="Tests/src"/>
+	<classpathentry kind="src" path="testStatement/src"/>
+	<classpathentry kind="src" path="usandoSwing_/src"/>
+	<classpathentry kind="src" path="usandoSwing/src"/>
+	<classpathentry kind="src" path="Ventana/src"/>
+	<classpathentry kind="lib" path="pruebaMySQL/mysql-connector-java-5.1.46-bin.jar"/>
+	<classpathentry kind="lib" path="pruebaMySQL/mysql-connector-java-5.1.46.jar"/>
+	<classpathentry kind="output" path="testStatement/build/classes"/>
+</classpath>
