@@ -1,0 +1,11 @@
+
+{squid:S00101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±éË HõRMINORZ
+CODE_SMELL
+‚squid:S00101,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£™“ë8Ê¸ý–º,HÐRMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HôRMINORZ
+CODE_SMELL
+‚squid:MaximumInheritanceDepth
+"<This class has 6 parents which is greater than 5 authorized.(±éË 8õ±„–º,H÷RMAJORZ
+CODE_SMELL

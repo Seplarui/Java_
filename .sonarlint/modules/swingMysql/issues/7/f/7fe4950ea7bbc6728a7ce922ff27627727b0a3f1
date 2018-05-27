@@ -1,5 +1,5 @@
 
-{squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ö÷ÔHÈRMINORZ
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( Ñ‘ÆùÿÿÿÿHÔRMINORZ
 CODE_SMELL
-squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( Ñ‘ÆùÿÿÿÿHÊRMINORZ
+{squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ö÷ÔHÕRMINORZ
 CODE_SMELL

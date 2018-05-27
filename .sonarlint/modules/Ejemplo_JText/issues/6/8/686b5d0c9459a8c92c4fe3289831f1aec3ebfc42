@@ -1,0 +1,9 @@
+
+€squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯‰ª¿ùÿÿÿÿHÙRMINORZ
+CODE_SMELL
+‡squid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(¯‰ª¿ùÿÿÿÿ8ñ»Ò•º,HÞRMAJORZ
+CODE_SMELL
+asquid:S1659"(Declare "textField2" on a separate line.(Îí†ýÿÿÿÿ8ñ»Ò•º,HÜRMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HØRMINORZ
+CODE_SMELL
