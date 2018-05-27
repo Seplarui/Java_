@@ -1,0 +1,17 @@
+
+Ysquid:S1659"&Declare "adelante" on a separate line.(µ£¥8İ¯ŞË¸,HqRMINORZ
+CODE_SMELL
+squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ö¢ò”üÿÿÿÿHXRMINORZ
+CODE_SMELL
+^squid:S1659"&Declare "idBuscar" on a separate line.(Ş÷‘Õùÿÿÿÿ8İ¯ŞË¸,HpRMINORZ
+CODE_SMELL
+Vsquid:S1659"#Declare "todos" on a separate line.(µ£¥8İ¯ŞË¸,HsRMINORZ
+CODE_SMELL
+‹squid:S001170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÒ³Îşÿÿÿÿ8ÁêıË¸,H±RMINORZ
+CODE_SMELL
+‹squid:S00117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÒ³Îşÿÿÿÿ8ä‹Ì¸,H¹RMINORZ
+CODE_SMELL
+Zsquid:S1148T"#Use a logger to log this exception.(Ç’Çê8ä‹Ì¸,HºRMINORZVULNERABILITY
+Xsquid:S1659"$Declare "buscar" on a separate line.(µ£¥8ÁêıË¸,H¯RMINORZ
+CODE_SMELL
+Zsquid:S11488"#Use a logger to log this exception.(Ç’Çê8ÁêıË¸,H²RMINORZVULNERABILITY
