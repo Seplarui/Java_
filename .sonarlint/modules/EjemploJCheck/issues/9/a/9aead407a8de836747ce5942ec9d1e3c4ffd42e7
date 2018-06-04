@@ -1,0 +1,10 @@
+
+~squid:UselessImportCheck"8Remove this unused import 'java.awt.event.ItemListener'.(×ğ¿ıÿÿÿÿ8¦Ñ†·¼,H¢RMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H•RMINORZ
+CODE_SMELL
+‡squid:MaximumInheritanceDepth
+"<This class has 6 parents which is greater than 5 authorized.(‡ÅëÕşÿÿÿÿ8•Å‘·¼,H¶RMAJORZ
+CODE_SMELL
+{squid:UselessImportCheck"5Remove this unused import 'java.awt.event.ItemEvent'.(¬§„Âÿÿÿÿÿ8¦Ñ†·¼,HRMINORZ
+CODE_SMELL

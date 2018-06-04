@@ -1,11 +1,11 @@
 
+Gsquid:S1220""Move this file to a named package.HéRMINORZ
+CODE_SMELL
 {squid:S00101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±ÈÀ†HıRMINORZ
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±ÈÀ†HèRMINORZ
 CODE_SMELL
-Çsquid:S00101,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£ôìÎ8 ∏˝ñ∫,H–RMINORZ
-CODE_SMELL
-Gsquid:S1220""Move this file to a named package.HÙRMINORZ
+Çsquid:S00101,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£ôìÎ8 ∏˝ñ∫,HêRMINORZ
 CODE_SMELL
 Çsquid:MaximumInheritanceDepth
-"<This class has 6 parents which is greater than 5 authorized.(±ÈÀ†8ı±Ññ∫,H˜RMAJORZ
+"<This class has 6 parents which is greater than 5 authorized.(±ÈÀ†8ı±Ññ∫,HëRMAJORZ
 CODE_SMELL
